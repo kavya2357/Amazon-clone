@@ -1,0 +1,36 @@
+.main{
+    margin:10px;
+    width: 100%;
+    min-width:100px;
+    max-height:850px;
+    background-color: white;
+    border-radius: 5px;
+}
+.sub1{
+    width:960px;
+    max-height: 285px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.title > span{
+    color: #114545;
+    padding: 10px 0 0 15px;
+    font-size: smaller;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 0;
+    /* overflow-x: hidden; */
+}
+.items > img{
+    padding: 0 10px 0 0;
+    max-width: 220px;
+    max-height:220px;
+}
