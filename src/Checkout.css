@@ -1,0 +1,33 @@
+.ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.checkout{
+    display:flex;
+    flex-direction: column;
+}
+.left{
+    background-color: white;
+    max-width: 650px;
+    min-height: 100px;
+    margin: 30px 0 15px 15px;
+    padding: 20px 10px 20px 20px;
+    
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title>h1{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+}
+.title>p{
+    font-size: 14px;
+    color: #007185;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 5px 0 15px 0;
+    border-bottom: 1px solid lightgray;
+}
