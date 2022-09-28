@@ -2,13 +2,13 @@
     margin:10px;
     width: 100%;
     min-width:100px;
-    max-height:850px;
+    max-height:950px;
     background-color: white;
     border-radius: 5px;
 }
 .sub1{
     width:960px;
-    max-height: 285px;
+    max-height: 400px;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
 }
 .title > span{
     color: #114545;
-    padding: 10px 0 0 15px;
+    padding: 5px 0 5 0;
     font-size: smaller;
 }
 .items{

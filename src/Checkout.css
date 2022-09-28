@@ -1,17 +1,14 @@
-.ad{
-    width: 100%;
-    margin-bottom: 10px;
-}
 .checkout{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .left{
     background-color: white;
-    max-width: 650px;
+    width: 850px; 
+    /* width: auto; */
     min-height: 100px;
-    margin: 30px 0 15px 15px;
-    padding: 20px 10px 20px 20px;
+    margin: 30px 10px 15px 25px;
+    padding: 20px 10px 20px 25px;
     
 }
 .title{
@@ -28,6 +25,41 @@
     color: #007185;
     line-height: 20px;
     cursor: pointer;
-    padding: 5px 0 15px 0;
+    padding: 5px 0 0 0;
+}
+.price{
     border-bottom: 1px solid lightgray;
+}
+.price>p{
+    /* margin-left: 590px; */
+    color: #565959!important;
+    text-align: right!important;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 5px 0 0;
+}
+.right{
+    width:315px;
+    display: flex;
+    flex-direction: column;
+    min-height: 1px;
+}
+.top{
+    background-color: white;
+    margin: 20px;
+    padding: 20px 10px 20px 20px;
+    /* min-width: 400px; */
+    width: 307px;
+    min-height: 1px;
+    padding: 20px 0 15px 0;
+    margin: 30px 0 15px 15px;
+}
+.price_title{
+    border-bottom: 1px solid #DDD;
+    display: flex;
+    justify-content:flex-end;
+}
+.price_title>p{
+    color: #565959!important;
+    padding: 0 35px 3px 0;
 }

@@ -17,7 +17,7 @@ function Home(){
                 <Product 
                   title="Beyond Snáck Kerala Banana Chips | 3 Pack Combo, 300g| Original Style, Peri Peri, Sour Cream Onion & Parsley (3X100g)"
                   price={204}
-                  desc="($68/100g)"
+                  desc="(₹68/100g)"
                   image={chips}
                   rating="⭐⭐⭐⭐"
                   delivery="Friday, September 16"
@@ -26,7 +26,7 @@ function Home(){
                 <Product 
                   title="ShoesSPRIG TE.A Green Tea with Oriental Ginger | Made with Fresh Ginger | Low Bitterness | 100% Soluble Green Tea | Aids in weight loss | Immunity Boosting | No Chemical Additives | Pack of 25"
                   price={145}
-                  desc="($58/100g)"
+                  desc="(₹58/100g)"
                   image={tea}
                   rating="⭐⭐⭐⭐"
                   delivery="Friday, September 16"
@@ -35,7 +35,7 @@ function Home(){
                 <Product 
                   title="ShoesSPRIG TE.A Green Tea with Oriental Ginger | Made with Fresh Ginger | Low Bitterness | 100% Soluble Green Tea | Rich in Antioxidants and Vitamin C | Relief from Nausea, Indigestion & vomiting | Aids in weight loss | Immunity Boosting | No Chemical Additives | Pack of 25"
                   price={145}
-                  desc="($58/100g)"
+                  desc="(₹58/100g)"
                   image={tea}
                   rating="⭐⭐⭐⭐"
                   delivery="Friday, September 16"

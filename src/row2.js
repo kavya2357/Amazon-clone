@@ -20,7 +20,6 @@ function row2(){
                     <img src={img3} alt=""/>
                     <img src={img4} alt=""/>
                     <img src={img5} alt=""/>
-                    
                 </div>
             </div>
         </div>
