@@ -1,31 +1,24 @@
 import './App.css';
-import Header from './Header.js'
+import Header from './Components/Header.js'
 import Home from './Home.js'
 import Checkout from './Checkout.js'
+import Login from './Login.js'
 import {BrowserRouter, Routes,Route} from "react-router-dom";
+import { Switch } from '@mui/material';
 function App() {
   return (
     <BrowserRouter>
       <div className="app">
         <Header />
         <Routes>
-          {/* <Route path="/checkout">
-            <Header />
-            <Checkout />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route> */}
+          
           <Route path="/" element={<Home />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="login" element={<Login />}/>
+          
         </Routes>
-
-
-        {/* <Header />
-        <Home /> */}
       </div>
-    </BrowserRouter>
-    
+    </BrowserRouter>   
   );
 }
 

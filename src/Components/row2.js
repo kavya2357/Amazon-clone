@@ -1,10 +1,10 @@
 import React from 'react'
 import './row2.css'
-import img1 from './img1.png'
-import img2 from './img2.png'
-import img3 from './img3.png'
-import img4 from './img4.png'
-import img5 from './img5.png'
+import Img1 from './images/img1.png'
+import Img2 from './images/img2.png'
+import Img3 from './images/img3.png'
+import Img4 from './images/img4.png'
+import Img5 from './images/img5.png'
 
 function row2(){
     return(
@@ -15,11 +15,11 @@ function row2(){
                     <span>See all offers</span>
                 </div>
                 <div className='items'>
-                    <img src={img1} alt=""/>
-                    <img src={img2} alt=""/>
-                    <img src={img3} alt=""/>
-                    <img src={img4} alt=""/>
-                    <img src={img5} alt=""/>
+                    <img src={Img1} alt=""/>
+                    <img src={Img2} alt=""/>
+                    <img src={Img3} alt=""/>
+                    <img src={Img4} alt=""/>
+                    <img src={Img5} alt=""/>
                 </div>
             </div>
         </div>

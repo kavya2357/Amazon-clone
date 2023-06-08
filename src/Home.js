@@ -1,18 +1,18 @@
 import React from "react";
 import "./Home.css";
-import image from "./bg.png";
-import Product from "./Product.js";
-import chips from "./chips.png";
-import tea from "./p1.png";
-import Row2 from "./row2.js";
-import furnish from "./furnishing.png"
+import image from "./Components/images/bg.png";
+import Product from "./Components/Product.js";
+import chips from "./Components/images/chips.png";
+import tea from "./Components/images/p1.png";
+import Row2 from "./Components/row2.js";
+import furnish from "./Components/images/furnishing.png"
 function Home(){
     return(
         <div className="home">
              <div className="home_container">
                 <img className="home_image" src={image}/>
              </div>
-
+            <div className="rows">
              <div className="home_row">
                 <Product 
                   title="Beyond Snáck Kerala Banana Chips | 3 Pack Combo, 300g| Original Style, Peri Peri, Sour Cream Onion & Parsley (3X100g)"
@@ -62,6 +62,7 @@ function Home(){
                   rating="⭐⭐⭐⭐"
                 />   
                 
+             </div>
              </div>
         </div>
     );

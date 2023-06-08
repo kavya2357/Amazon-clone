@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
-// import logo from './logo.svg';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Location from '@mui/icons-material/ShareLocation';
 import { Link } from 'react-router-dom';
 import {useStateValue} from "./StateProvider"
 
@@ -13,7 +13,17 @@ function Header() {
     <div className='header'>
         <Link to="/">
             <img className="header_logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="no logo:)"/>
+            
         </Link>
+        
+        <div className='header_option'>
+            <span className='optionL1'>
+              Hello
+            </span>
+            <span className='optionL2'>
+              Select your address
+            </span>
+        </div>
 
         <div className='header_search'>
             <input type="text" className='header_searchInput'/>
@@ -22,14 +32,16 @@ function Header() {
 
         <div className='header_nav'>
 
-            <div className='header_option'>
+            <Link to='/login'>
+             <div className='header_option'>
                 <span className='optionL1'>
                   Hello Guest
                 </span>
                 <span className='optionL2'>
                   Sign In
                 </span>
-            </div>
+              </div>
+            </Link>
 
             <div className='header_option'>
                 <span className='optionL1'>
